@@ -19,7 +19,7 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade():
-    # Insert initial data
+    # initial data
     op.execute("""
         INSERT INTO todos (title, description, completed) 
         VALUES ('task 1', 'this is first task', false), 
