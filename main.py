@@ -6,7 +6,7 @@ from typing import List
 import models, schemas, database
 from database import SessionLocal, engine
 
-# Create a FastAPI app instance
+# FastAPI app instance
 app = FastAPI(debug=True, title="ToDo list")
 
 
